@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+b {
+  font-family: serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #deb2e2;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  padding: 0 16px;
+}
+header {
+  background-color: #974cb0;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+footer {
+  text-align: center;
+  margin-top: auto;
+  color: #a5a4a4;
+}
+.container {
+  margin: 10% auto;
+  padding: 5px 0;
+  text-align: center;
+}
+.searchField {
+  border: 1px solid rgba(252, 252, 252, 0.4);
+  padding: 5px;
+  margin: 5px;
+  width: 350px;
+  height: 50px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  display: inline-flex;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  font-weight: 400;
+  line-height: 1.4375em;
+  letter-spacing: 0.00938em;
+  cursor: text;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.06);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.searchField:active {
+  border: 3px solid rgba(255, 255, 255, 0.4);
+}
+.searchField:hover {
+  border: 3px solid rgba(0, 0, 0, 0.06);
+}
+.book {
+  position: relative;
+  padding: 25px 15px;
+  border: 2px solid #888888;
+  background-color: #d9dede;
+  margin: 50px 0;
+  height: 200px;
+  box-shadow: 0 2px 5px #ccc;
+}
+.book-main {
+  height: 100px;
+  width: 100%;
+  background-color: #e9e3e3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+.book-img {
+  border: 2px solid #000000;
+  width: 145px;
+  height: 187%;
+  float: left;
+  margin: 5px;
+}
+.book-name {
+  font-family: serif;
+  font-size: 2.5em;
+  color: #1e2122;
+  flex: 1;
+  margin: 5%;
+}
+.book-details {
+  height: 100px;
+  margin-top: 90px;
+  margin-left: 140px;
+  text-align: center;
+}
+.detail-info {
+  margin: 20px 0;
+  color: #524d4d;
+}
+.extended-view {
+  position: relative;
+  padding: 25px 15px;
+  border: 2px solid #888888;
+  background-color: #d9dede;
+  margin: 50px 0;
+  height: auto;
+  box-shadow: 0 2px 5px #ccc;
+}
+.extended-main {
+  height: 100px;
+  width: 100%;
+  background-color: #e9e3e3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+.extended-name {
+  font-family: serif;
+  font-size: 2.5em;
+  color: #1e2122;
+  flex: 1;
+  margin: 5%;
+}
+#extended-img {
+  float: left;
+  border: 2px solid #000000;
+  width: 180px;
+  height: 250px;
+}
+.extended-details {
+  height: auto;
+  text-wrap: wrap;
+  line-height: 180%;
+  margin-top: 90px;
+}
+.reviews {
+  height: auto;
+  font-family: serif;
+  text-align: left;
+  text-wrap: wrap;
+  line-height: 180%;
+  padding-left: 12px;
+  padding-top: 5px;
+}
+.review {
+  height: auto;
+  font-family: serif;
+  text-align: center;
+  text-wrap: wrap;
+  line-height: 150%;
+  padding-left: 5px;
+  padding-top: 5px;
+}
